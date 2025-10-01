@@ -1,0 +1,61 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1759152923
+ball_actual.gd::GDScript::-1::1759152470::0::1::::<>CharacterBody2D<>::
+ball_actual.tscn::PackedScene::6253457125710979776::1759102668::0::1::::<><>::uid://bnh1ski4h3pke::::res://art/ball.png<>res://ball_actual.gd
+Board.gd::GDScript::-1::1759098685::0::1::::<>Area2D<>::
+board.tscn::PackedScene::836145934169641230::1759112684::0::1::::<><>::res://Board.gd
+CharacterBody2D.gd::GDScript::-1::1759015640::0::1::::<>CharacterBody2D<>::
+hud.tscn::PackedScene::4762701228227865345::1759152923::0::1::::<><>::uid://k1ln21fptkhj::::res://art/hud_pngs/D.png<>res://hud.gd<>uid://c3tggd8d8s64x::::res://art/hud_pngs/W.png<>uid://b7on4rvjx8ie0::::res://art/hud_pngs/arrow_down.png<>uid://20c1mdd4bt6l::::res://art/hud_pngs/arrow_up.png<>uid://br0xn7eyjrs7q::::res://art/hud_pngs/0.png<>uid://cqu0rci2h3ud2::::res://art/hud_pngs/line.png
+icon.svg::CompressedTexture2D::6078726183084523610::1758967510::1758967514::1::::<><>::
+InputManager.gd::GDScript::-1::1759017202::0::1::::InputManager<>Object<>::
+main.gd::GDScript::-1::1759152652::0::1::::<>Node<>::
+main.tscn::PackedScene::5476589604206619256::1759152923::0::1::::<><>::res://main.gd<>uid://l6bg311omn0i::::res://board.tscn<>uid://b1v8cyspfkpki::::res://paddle.tscn<>uid://cvdhr4fg8hf4k::::res://ball_actual.tscn<>uid://b84c81mghvqdd::::res://hud.tscn
+paddle.gd::GDScript::-1::1759108078::0::1::::Paddle<>CharacterBody2D<>::
+paddle.tscn::PackedScene::4256691072521808152::1759102298::0::1::::<><>::uid://qsi4kmlquoob::::res://art/paddle.png<>res://paddle.gd
+Player1Input.gd::GDScript::-1::1759094520::0::1::::Player2Input<>InputManager<>::
+Player2Input.gd::GDScript::-1::1759094520::0::1::::Player1Input<>InputManager<>::
+hud.gd::GDScript::-1::1759152921::0::1::::<>CanvasLayer<>::
+::res://art/::1759122612
+ball.png::CompressedTexture2D::3314937620288193284::1758969479::1758970884::1::::<><>::
+paddle.png::CompressedTexture2D::1160718366040096021::1758970771::1758970884::1::::<><>::
+::res://art/hud_pngs/::1759153036
+0.png::CompressedTexture2D::3632661863575127856::1759150237::1759150280::1::::<><>::
+1.png::CompressedTexture2D::1690130905705655821::1759150219::1759150280::1::::<><>::
+2.png::CompressedTexture2D::5358124896157464624::1759122122::1759122618::1::::<><>::
+3.png::CompressedTexture2D::756641952227764776::1759122039::1759122618::1::::<><>::
+4.png::CompressedTexture2D::2050814415875379486::1759122136::1759122618::1::::<><>::
+5.png::CompressedTexture2D::4175923056401198884::1759122140::1759122618::1::::<><>::
+6.png::CompressedTexture2D::3425455403517942856::1759122147::1759122618::1::::<><>::
+7.png::CompressedTexture2D::1685040910915011491::1759122151::1759122618::1::::<><>::
+8.png::CompressedTexture2D::2377788894707856600::1759122157::1759122618::1::::<><>::
+9.png::CompressedTexture2D::2816531140350082280::1759122161::1759122618::1::::<><>::
+arrow_down.png::CompressedTexture2D::4662207003374986393::1759122202::1759122618::1::::<><>::
+arrow_up.png::CompressedTexture2D::1946876721795166317::1759122197::1759122618::1::::<><>::
+cuteface.png::CompressedTexture2D::7623577704371804196::1759153035::1759153040::1::::<><>::
+D.png::CompressedTexture2D::756254818770422215::1759122193::1759122618::1::::<><>::
+G.png::CompressedTexture2D::3605657094038249339::1759122180::1759122618::1::::<><>::
+line.png::CompressedTexture2D::5938698822633830785::1759150257::1759150280::1::::<><>::
+N.png::CompressedTexture2D::827325406796697924::1759122176::1759122618::1::::<><>::
+O.png::CompressedTexture2D::1638427007356567785::1759122169::1759122618::1::::<><>::
+P.png::CompressedTexture2D::7032264927295608992::1759122165::1759122618::1::::<><>::
+pixil-frame-0 (5).png::CompressedTexture2D::4762447400222970670::1759152970::1759153040::1::::<><>::
+W.png::CompressedTexture2D::6777727392028018605::1759122184::1759122618::1::::<><>::
+::res://art/hud_pngs/originals/::1759150280
+pixil-frame-0 (5).png::CompressedTexture2D::7266196715392698640::1759149961::1759150280::1::::<><>::
+pixil-frame-0 (6).png::CompressedTexture2D::6020804101504596854::1759150023::1759150280::1::::<><>::
+pixil-frame-0 (7).png::CompressedTexture2D::8303485880842354692::1759121143::1759122618::1::::<><>::
+pixil-frame-0 (8).png::CompressedTexture2D::7477654506104766626::1759121167::1759122618::1::::<><>::
+pixil-frame-0 (9).png::CompressedTexture2D::5452433065224138094::1759121201::1759122618::1::::<><>::
+pixil-frame-0 (10).png::CompressedTexture2D::6560848005163617199::1759121356::1759122618::1::::<><>::
+pixil-frame-0 (11).png::CompressedTexture2D::5659091228977120033::1759121385::1759122618::1::::<><>::
+pixil-frame-0 (12).png::CompressedTexture2D::4023025117747825684::1759121426::1759122618::1::::<><>::
+pixil-frame-0 (13).png::CompressedTexture2D::3880962125997915475::1759121459::1759122618::1::::<><>::
+pixil-frame-0 (14).png::CompressedTexture2D::7584492327728842408::1759121474::1759122618::1::::<><>::
+pixil-frame-0 (15).png::CompressedTexture2D::3380937710819054020::1759121553::1759122618::1::::<><>::
+pixil-frame-0 (16).png::CompressedTexture2D::5738068402340935825::1759121574::1759122618::1::::<><>::
+pixil-frame-0 (17).png::CompressedTexture2D::4259494651198968418::1759121591::1759122618::1::::<><>::
+pixil-frame-0 (18).png::CompressedTexture2D::4430300298842935561::1759121668::1759122618::1::::<><>::
+pixil-frame-0 (19).png::CompressedTexture2D::7133305000177301127::1759121832::1759122618::1::::<><>::
+pixil-frame-0 (20).png::CompressedTexture2D::6674028872249916921::1759121873::1759122618::1::::<><>::
+pixil-frame-0 (21).png::CompressedTexture2D::8631651681361413807::1759121930::1759122618::1::::<><>::
+pixil-frame-0 (22).png::CompressedTexture2D::6057171193817703883::1759121948::1759122618::1::::<><>::

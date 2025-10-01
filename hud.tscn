@@ -1,0 +1,68 @@
+[gd_scene load_steps=8 format=3 uid="uid://b84c81mghvqdd"]
+
+[ext_resource type="Texture2D" uid="uid://k1ln21fptkhj" path="res://art/hud_pngs/D.png" id="1_7irba"]
+[ext_resource type="Script" path="res://hud.gd" id="1_60bd3"]
+[ext_resource type="Texture2D" uid="uid://c3tggd8d8s64x" path="res://art/hud_pngs/W.png" id="2_bkmwl"]
+[ext_resource type="Texture2D" uid="uid://b7on4rvjx8ie0" path="res://art/hud_pngs/arrow_down.png" id="3_nc6f2"]
+[ext_resource type="Texture2D" uid="uid://20c1mdd4bt6l" path="res://art/hud_pngs/arrow_up.png" id="4_ksamd"]
+[ext_resource type="Texture2D" uid="uid://br0xn7eyjrs7q" path="res://art/hud_pngs/0.png" id="5_i8e4i"]
+[ext_resource type="Texture2D" uid="uid://cqu0rci2h3ud2" path="res://art/hud_pngs/line.png" id="6_ir6s8"]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_60bd3")
+
+[node name="W" type="TextureRect" parent="."]
+offset_left = 59.0
+offset_top = 783.0
+offset_right = 195.0
+offset_bottom = 906.0
+texture = ExtResource("1_7irba")
+metadata/_edit_group_ = true
+
+[node name="D" type="TextureRect" parent="."]
+offset_left = 59.0
+offset_top = 660.0
+offset_right = 202.0
+offset_bottom = 778.0
+texture = ExtResource("2_bkmwl")
+metadata/_edit_group_ = true
+
+[node name="arrow_up" type="TextureRect" parent="."]
+offset_left = 1215.0
+offset_top = 647.0
+offset_right = 1367.0
+offset_bottom = 769.0
+texture = ExtResource("4_ksamd")
+metadata/_edit_group_ = true
+
+[node name="arrow_down" type="TextureRect" parent="."]
+offset_left = 1217.0
+offset_top = 776.0
+offset_right = 1351.0
+offset_bottom = 898.0
+texture = ExtResource("3_nc6f2")
+metadata/_edit_group_ = true
+
+[node name="player1_points" type="TextureRect" parent="."]
+offset_left = 202.0
+offset_top = 25.0
+offset_right = 401.0
+offset_bottom = 238.0
+texture = ExtResource("5_i8e4i")
+metadata/_edit_group_ = true
+
+[node name="player2_points" type="TextureRect" parent="."]
+offset_left = 1005.0
+offset_top = 33.0
+offset_right = 1220.0
+offset_bottom = 246.0
+texture = ExtResource("5_i8e4i")
+metadata/_edit_group_ = true
+
+[node name="mid_line" type="TextureRect" parent="."]
+offset_left = 652.0
+offset_top = -4.0
+offset_right = 773.0
+offset_bottom = 963.0
+texture = ExtResource("6_ir6s8")
+metadata/_edit_group_ = true
